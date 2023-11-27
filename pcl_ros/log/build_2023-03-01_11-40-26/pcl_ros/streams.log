@@ -1,0 +1,363 @@
+[0.280s] Invoking command in '/media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros/build/pcl_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brokkoly/ros2_foxy/install/ros2bag:/home/brokkoly/ros2_foxy/install/tracetools_launch:/home/brokkoly/ros2_foxy/install/topic_monitor:/home/brokkoly/ros2_foxy/install/examples_tf2_py:/home/brokkoly/ros2_foxy/install/sros2:/home/brokkoly/ros2_foxy/install/rqt_topic:/home/brokkoly/ros2_foxy/install/rqt_top:/home/brokkoly/ros2_foxy/install/rqt_srv:/home/brokkoly/ros2_foxy/install/rqt_shell:/home/brokkoly/ros2_foxy/install/rqt_service_caller:/home/brokkoly/ros2_foxy/install/rqt_reconfigure:/home/brokkoly/ros2_foxy/install/rqt_py_console:/home/brokkoly/ros2_foxy/install/rqt_publisher:/home/brokkoly/ros2_foxy/install/rqt_plot:/home/brokkoly/ros2_foxy/install/rqt_action:/home/brokkoly/ros2_foxy/install/rqt_msg:/home/brokkoly/ros2_foxy/install/rqt_console:/home/brokkoly/ros2_foxy/install/rqt:/home/brokkoly/ros2_foxy/install/rqt_graph:/home/brokkoly/ros2_foxy/install/rqt_gui_py:/home/brokkoly/ros2_foxy/install/rqt_gui:/home/brokkoly/ros2_foxy/install/ros2trace:/home/brokkoly/ros2_foxy/install/ros2topic:/home/brokkoly/ros2_foxy/install/ros2test:/home/brokkoly/ros2_foxy/install/ros2component:/home/brokkoly/ros2_foxy/install/ros2param:/home/brokkoly/ros2_foxy/install/ros2lifecycle:/home/brokkoly/ros2_foxy/install/ros2service:/home/brokkoly/ros2_foxy/install/ros2run:/home/brokkoly/ros2_foxy/install/ros2launch:/home/brokkoly/ros2_foxy/install/ros2pkg:/home/brokkoly/ros2_foxy/install/ros2node:/home/brokkoly/ros2_foxy/install/ros2multicast:/home/brokkoly/ros2_foxy/install/ros2interface:/home/brokkoly/ros2_foxy/install/ros2doctor:/home/brokkoly/ros2_foxy/install/ros2action:/home/brokkoly/ros2_foxy/install/ros2cli:/home/brokkoly/ros2_foxy/install/quality_of_service_demo_py:/home/brokkoly/ros2_foxy/install/launch_testing_ros:/home/brokkoly/ros2_foxy/install/launch_ros:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_service:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_executors:/home/brokkoly/ros2_foxy/install/demo_nodes_py:/home/brokkoly/ros2_foxy/install/action_tutorials_py:/home/brokkoly/ros2_foxy/install/ament_uncrustify:/home/brokkoly/ros2_foxy/install/tracetools_trace:/home/brokkoly/ros2_foxy/install/tracetools_read:/home/brokkoly/ros2_foxy/install/test_launch_ros:/home/brokkoly/ros2_foxy/install/sensor_msgs_py:/home/brokkoly/ros2_foxy/install/rpyutils:/home/brokkoly/ros2_foxy/install/rosidl_runtime_py:/home/brokkoly/ros2_foxy/install/launch_yaml:/home/brokkoly/ros2_foxy/install/launch_xml:/home/brokkoly/ros2_foxy/install/launch_testing:/home/brokkoly/ros2_foxy/install/launch:/home/brokkoly/ros2_foxy/install/osrf_pycommon:/home/brokkoly/ros2_foxy/install/domain_coordinator:/home/brokkoly/ros2_foxy/install/ament_xmllint:/home/brokkoly/ros2_foxy/install/ament_pyflakes:/home/brokkoly/ros2_foxy/install/ament_pycodestyle:/home/brokkoly/ros2_foxy/install/ament_pep257:/home/brokkoly/ros2_foxy/install/ament_pclint:/home/brokkoly/ros2_foxy/install/ament_package:/home/brokkoly/ros2_foxy/install/ament_mypy:/home/brokkoly/ros2_foxy/install/ament_lint_cmake:/home/brokkoly/ros2_foxy/install/ament_flake8:/home/brokkoly/ros2_foxy/install/ament_copyright:/home/brokkoly/ros2_foxy/install/ament_lint:/home/brokkoly/ros2_foxy/install/ament_index_python:/home/brokkoly/ros2_foxy/install/ament_cpplint:/home/brokkoly/ros2_foxy/install/ament_cppcheck:/home/brokkoly/ros2_foxy/install/ament_clang_tidy:/home/brokkoly/ros2_foxy/install/ament_clang_format /usr/local/bin/cmake /media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros -DCMAKE_INSTALL_PREFIX=/media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros/install/pcl_ros
+[0.639s] -- The C compiler identification is GNU 7.5.0
+[0.852s] -- The CXX compiler identification is GNU 7.5.0
+[0.897s] -- Detecting C compiler ABI info
+[1.225s] -- Detecting C compiler ABI info - done
+[1.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.258s] -- Detecting C compile features
+[1.258s] -- Detecting C compile features - done
+[1.268s] -- Detecting CXX compiler ABI info
+[1.618s] -- Detecting CXX compiler ABI info - done
+[1.648s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.648s] -- Detecting CXX compile features
+[1.650s] -- Detecting CXX compile features - done
+[1.944s] -- Checking for module 'eigen3'
+[2.112s] --   Found eigen3, version 3.3.4
+[2.409s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.410s]   The package name passed to `find_package_handle_standard_args` (eigen) does
+[2.411s]   not match the name of the calling package (PCL).  This can lead to problems
+[2.411s]   in calling code that expects `find_package` result variables (e.g.,
+[2.411s]   `_FOUND`) to follow a certain pattern.
+[2.412s] Call Stack (most recent call first):
+[2.412s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:153 (find_package_handle_standard_args)
+[2.412s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:638 (find_eigen)
+[2.413s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)
+[2.413s]   CMakeLists.txt:13 (find_package)
+[2.414s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.414s] -- Found eigen: /usr/include/eigen3  
+[2.414s] [0m
+[7.502s] -- Checking for module 'flann'
+[7.721s] --   Found flann, version 1.9.1
+[8.238s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[8.239s]   The package name passed to `find_package_handle_standard_args` (Flann) does
+[8.239s]   not match the name of the calling package (PCL).  This can lead to problems
+[8.240s]   in calling code that expects `find_package` result variables (e.g.,
+[8.240s]   `_FOUND`) to follow a certain pattern.
+[8.241s] Call Stack (most recent call first):
+[8.241s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)
+[8.242s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)
+[8.242s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)
+[8.243s]   CMakeLists.txt:13 (find_package)
+[8.243s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.243s] [0m
+[8.244s] -- Found Flann: /usr/lib/aarch64-linux-gnu/libflann_cpp_s.a  
+[8.244s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[8.244s]   The package name passed to `find_package_handle_standard_args` (Flann) does
+[8.245s]   not match the name of the calling package (PCL).  This can lead to problems
+[8.245s]   in calling code that expects `find_package` result variables (e.g.,
+[8.245s]   `_FOUND`) to follow a certain pattern.
+[8.246s] Call Stack (most recent call first):
+[8.246s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)
+[8.247s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)
+[8.247s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)
+[8.247s]   CMakeLists.txt:13 (find_package)
+[8.248s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.248s] [0m
+[8.248s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[8.249s]   The package name passed to `find_package_handle_standard_args` (Flann) does
+[8.249s]   not match the name of the calling package (PCL).  This can lead to problems
+[8.249s]   in calling code that expects `find_package` result variables (e.g.,
+[8.250s]   `_FOUND`) to follow a certain pattern.
+[8.250s] Call Stack (most recent call first):
+[8.251s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)
+[8.251s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)
+[8.251s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)
+[8.252s]   CMakeLists.txt:13 (find_package)
+[8.252s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.252s] [0m
+[8.373s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[8.373s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[8.374s] but this file does not exist.  Possible reasons include:
+[8.374s] * The file was deleted, renamed, or moved to another location.
+[8.374s] * An install or uninstall procedure did not complete successfully.
+[8.375s] * The installation package was faulty and contained
+[8.375s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[8.375s] but not all the files it references.
+[8.376s] 
+[8.376s] -- The imported target "vtk" references the file
+[8.377s]    "/usr/bin/vtk"
+[8.377s] but this file does not exist.  Possible reasons include:
+[8.378s] * The file was deleted, renamed, or moved to another location.
+[8.378s] * An install or uninstall procedure did not complete successfully.
+[8.379s] * The installation package was faulty and contained
+[8.379s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[8.379s] but not all the files it references.
+[8.380s] 
+[8.878s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[8.879s]   The package name passed to `find_package_handle_standard_args` (Flann) does
+[8.879s]   not match the name of the calling package (PCL).  This can lead to problems
+[8.880s]   in calling code that expects `find_package` result variables (e.g.,
+[8.880s]   `_FOUND`) to follow a certain pattern.
+[8.881s] Call Stack (most recent call first):
+[8.881s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)
+[8.882s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)
+[8.882s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)
+[8.883s]   CMakeLists.txt:13 (find_package)
+[8.883s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.884s] [0m
+[8.884s] -- Checking for module 'libopenni'
+[9.099s] --   Found libopenni, version 1.5.4.0
+[9.611s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[9.612s]   The package name passed to `find_package_handle_standard_args` (openni)
+[9.612s]   does not match the name of the calling package (PCL).  This can lead to
+[9.613s]   problems in calling code that expects `find_package` result variables
+[9.613s]   (e.g., `_FOUND`) to follow a certain pattern.
+[9.614s] Call Stack (most recent call first):
+[9.614s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:235 (find_package_handle_standard_args)
+[9.614s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:644 (find_openni)
+[9.615s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)
+[9.615s]   CMakeLists.txt:13 (find_package)
+[9.616s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.616s] [0m
+[9.616s] -- Found openni: /usr/lib/libOpenNI.so  
+[10.312s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.312s]   The package name passed to `find_package_handle_standard_args` (OpenNI2)
+[10.313s]   does not match the name of the calling package (PCL).  This can lead to
+[10.313s]   problems in calling code that expects `find_package` result variables
+[10.313s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.314s] Call Stack (most recent call first):
+[10.314s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:280 (find_package_handle_standard_args)
+[10.314s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:646 (find_openni2)
+[10.315s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)
+[10.315s]   CMakeLists.txt:13 (find_package)
+[10.315s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.316s] [0m
+[10.427s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.427s]   The package name passed to `find_package_handle_standard_args` (ensenso)
+[10.428s]   does not match the name of the calling package (PCL).  This can lead to
+[10.428s]   problems in calling code that expects `find_package` result variables
+[10.429s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.429s] Call Stack (most recent call first):
+[10.429s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:312 (find_package_handle_standard_args)
+[10.430s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:648 (find_ensenso)
+[10.430s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)
+[10.430s]   CMakeLists.txt:13 (find_package)
+[10.431s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.431s] [0m
+[10.491s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.492s]   The package name passed to `find_package_handle_standard_args` (DAVIDSDK)
+[10.492s]   does not match the name of the calling package (PCL).  This can lead to
+[10.493s]   problems in calling code that expects `find_package` result variables
+[10.493s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.493s] Call Stack (most recent call first):
+[10.494s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:346 (find_package_handle_standard_args)
+[10.494s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:650 (find_davidSDK)
+[10.494s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)
+[10.495s]   CMakeLists.txt:13 (find_package)
+[10.495s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.495s] [0m
+[10.507s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.508s]   The package name passed to `find_package_handle_standard_args` (DSSDK) does
+[10.508s]   not match the name of the calling package (PCL).  This can lead to problems
+[10.509s]   in calling code that expects `find_package` result variables (e.g.,
+[10.509s]   `_FOUND`) to follow a certain pattern.
+[10.509s] Call Stack (most recent call first):
+[10.510s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:388 (find_package_handle_standard_args)
+[10.510s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:652 (find_dssdk)
+[10.510s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)
+[10.511s]   CMakeLists.txt:13 (find_package)
+[10.511s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.511s] [0m
+[10.608s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.609s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[10.609s]   does not match the name of the calling package (PCL).  This can lead to
+[10.609s]   problems in calling code that expects `find_package` result variables
+[10.610s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.610s] Call Stack (most recent call first):
+[10.611s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:515 (find_package_handle_standard_args)
+[10.611s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:658 (find_libusb)
+[10.611s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)
+[10.612s]   CMakeLists.txt:13 (find_package)
+[10.612s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.612s] [0m
+[10.613s] -- Found libusb-1.0: /usr/include  
+[10.845s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.846s]   The package name passed to `find_package_handle_standard_args` (qhull) does
+[10.846s]   not match the name of the calling package (PCL).  This can lead to problems
+[10.847s]   in calling code that expects `find_package` result variables (e.g.,
+[10.847s]   `_FOUND`) to follow a certain pattern.
+[10.847s] Call Stack (most recent call first):
+[10.848s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:185 (find_package_handle_standard_args)
+[10.848s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:642 (find_qhull)
+[10.849s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)
+[10.849s]   CMakeLists.txt:13 (find_package)
+[10.850s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.850s] [0m
+[10.851s] -- Found qhull: /usr/lib/aarch64-linux-gnu/libqhull.so  
+[10.851s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.851s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[10.852s]   does not match the name of the calling package (PCL).  This can lead to
+[10.852s]   problems in calling code that expects `find_package` result variables
+[10.852s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.853s] Call Stack (most recent call first):
+[10.853s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.853s]   CMakeLists.txt:13 (find_package)
+[10.854s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.854s] [0m
+[10.854s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[10.856s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.856s]   The package name passed to `find_package_handle_standard_args` (PCL_CORE)
+[10.857s]   does not match the name of the calling package (PCL).  This can lead to
+[10.857s]   problems in calling code that expects `find_package` result variables
+[10.858s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.858s] Call Stack (most recent call first):
+[10.858s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.859s]   CMakeLists.txt:13 (find_package)
+[10.859s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.860s] [0m
+[10.860s] -- Could NOT find PCL_CORE (missing: PCL_CORE_LIBRARY PCL_CORE_INCLUDE_DIR) 
+[10.860s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.861s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[10.861s]   does not match the name of the calling package (PCL).  This can lead to
+[10.861s]   problems in calling code that expects `find_package` result variables
+[10.862s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.863s] Call Stack (most recent call first):
+[10.863s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.863s]   CMakeLists.txt:13 (find_package)
+[10.864s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.864s] [0m
+[10.865s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[10.865s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.865s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[10.865s]   does not match the name of the calling package (PCL).  This can lead to
+[10.866s]   problems in calling code that expects `find_package` result variables
+[10.867s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.867s] Call Stack (most recent call first):
+[10.867s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.868s]   CMakeLists.txt:13 (find_package)
+[10.868s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.868s] [0m
+[10.869s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[10.870s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.870s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[10.871s]   does not match the name of the calling package (PCL).  This can lead to
+[10.871s]   problems in calling code that expects `find_package` result variables
+[10.871s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.872s] Call Stack (most recent call first):
+[10.872s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.873s]   CMakeLists.txt:13 (find_package)
+[10.873s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.873s] [0m
+[10.874s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[10.874s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.875s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[10.875s]   does not match the name of the calling package (PCL).  This can lead to
+[10.876s]   problems in calling code that expects `find_package` result variables
+[10.876s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.876s] Call Stack (most recent call first):
+[10.877s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)
+[10.877s]   CMakeLists.txt:13 (find_package)
+[10.878s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.878s] [0m
+[10.878s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[10.879s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.880s]   The package name passed to `find_package_handle_standard_args`
+[10.880s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[10.880s]   can lead to problems in calling code that expects `find_package` result
+[10.881s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[10.881s] Call Stack (most recent call first):
+[10.882s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.882s]   CMakeLists.txt:13 (find_package)
+[10.882s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.883s] [0m
+[10.883s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[10.883s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.884s]   The package name passed to `find_package_handle_standard_args`
+[10.885s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[10.885s]   (PCL).  This can lead to problems in calling code that expects
+[10.885s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[10.886s]   pattern.
+[10.886s] Call Stack (most recent call first):
+[10.887s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.887s]   CMakeLists.txt:13 (find_package)
+[10.887s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.888s] [0m
+[10.888s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[10.889s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.889s]   The package name passed to `find_package_handle_standard_args`
+[10.890s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[10.890s]   can lead to problems in calling code that expects `find_package` result
+[10.891s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[10.891s] Call Stack (most recent call first):
+[10.891s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.892s]   CMakeLists.txt:13 (find_package)
+[10.892s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.893s] [0m
+[10.893s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[10.894s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.894s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[10.894s]   does not match the name of the calling package (PCL).  This can lead to
+[10.895s]   problems in calling code that expects `find_package` result variables
+[10.896s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.896s] Call Stack (most recent call first):
+[10.897s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.897s]   CMakeLists.txt:13 (find_package)
+[10.897s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.898s] [0m
+[10.898s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[10.898s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.899s]   The package name passed to `find_package_handle_standard_args`
+[10.900s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[10.901s]   can lead to problems in calling code that expects `find_package` result
+[10.901s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[10.902s] Call Stack (most recent call first):
+[10.902s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)
+[10.903s]   CMakeLists.txt:13 (find_package)
+[10.903s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.903s] [0m
+[10.904s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[10.904s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.905s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[10.905s]   does not match the name of the calling package (PCL).  This can lead to
+[10.905s]   problems in calling code that expects `find_package` result variables
+[10.906s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.907s] Call Stack (most recent call first):
+[10.907s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.907s]   CMakeLists.txt:13 (find_package)
+[10.908s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.908s] [0m
+[10.908s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[10.909s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.909s]   The package name passed to `find_package_handle_standard_args`
+[10.909s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[10.910s]   This can lead to problems in calling code that expects `find_package`
+[10.910s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[10.910s] Call Stack (most recent call first):
+[10.911s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.911s]   CMakeLists.txt:13 (find_package)
+[10.911s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.912s] [0m
+[10.912s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[10.913s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.913s]   The package name passed to `find_package_handle_standard_args`
+[10.913s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[10.914s]   can lead to problems in calling code that expects `find_package` result
+[10.914s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[10.914s] Call Stack (most recent call first):
+[10.915s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)
+[10.915s]   CMakeLists.txt:13 (find_package)
+[10.915s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.916s] [0m
+[10.916s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[11.009s] -- Found ament_cmake_ros: 0.9.2 (/home/brokkoly/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[11.903s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[11.903s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.211s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[15.211s]   By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this
+[15.212s]   project has asked CMake to find a package configuration file provided by
+[15.212s]   "pcl_conversions", but CMake did not find one.
+[15.212s] 
+[15.213s]   Could not find a package configuration file provided by "pcl_conversions"
+[15.213s]   with any of the following names:
+[15.214s] 
+[15.214s]     pcl_conversionsConfig.cmake
+[15.215s]     pcl_conversions-config.cmake
+[15.215s] 
+[15.216s]   Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or
+[15.216s]   set "pcl_conversions_DIR" to a directory containing one of the above files.
+[15.217s]   If "pcl_conversions" provides a separate development package or SDK, be
+[15.217s]   sure it has been installed.
+[15.218s] 
+[15.218s] [0m
+[15.218s] -- Configuring incomplete, errors occurred!
+[15.271s] Invoked command in '/media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros/build/pcl_ros' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brokkoly/ros2_foxy/install/ros2bag:/home/brokkoly/ros2_foxy/install/tracetools_launch:/home/brokkoly/ros2_foxy/install/topic_monitor:/home/brokkoly/ros2_foxy/install/examples_tf2_py:/home/brokkoly/ros2_foxy/install/sros2:/home/brokkoly/ros2_foxy/install/rqt_topic:/home/brokkoly/ros2_foxy/install/rqt_top:/home/brokkoly/ros2_foxy/install/rqt_srv:/home/brokkoly/ros2_foxy/install/rqt_shell:/home/brokkoly/ros2_foxy/install/rqt_service_caller:/home/brokkoly/ros2_foxy/install/rqt_reconfigure:/home/brokkoly/ros2_foxy/install/rqt_py_console:/home/brokkoly/ros2_foxy/install/rqt_publisher:/home/brokkoly/ros2_foxy/install/rqt_plot:/home/brokkoly/ros2_foxy/install/rqt_action:/home/brokkoly/ros2_foxy/install/rqt_msg:/home/brokkoly/ros2_foxy/install/rqt_console:/home/brokkoly/ros2_foxy/install/rqt:/home/brokkoly/ros2_foxy/install/rqt_graph:/home/brokkoly/ros2_foxy/install/rqt_gui_py:/home/brokkoly/ros2_foxy/install/rqt_gui:/home/brokkoly/ros2_foxy/install/ros2trace:/home/brokkoly/ros2_foxy/install/ros2topic:/home/brokkoly/ros2_foxy/install/ros2test:/home/brokkoly/ros2_foxy/install/ros2component:/home/brokkoly/ros2_foxy/install/ros2param:/home/brokkoly/ros2_foxy/install/ros2lifecycle:/home/brokkoly/ros2_foxy/install/ros2service:/home/brokkoly/ros2_foxy/install/ros2run:/home/brokkoly/ros2_foxy/install/ros2launch:/home/brokkoly/ros2_foxy/install/ros2pkg:/home/brokkoly/ros2_foxy/install/ros2node:/home/brokkoly/ros2_foxy/install/ros2multicast:/home/brokkoly/ros2_foxy/install/ros2interface:/home/brokkoly/ros2_foxy/install/ros2doctor:/home/brokkoly/ros2_foxy/install/ros2action:/home/brokkoly/ros2_foxy/install/ros2cli:/home/brokkoly/ros2_foxy/install/quality_of_service_demo_py:/home/brokkoly/ros2_foxy/install/launch_testing_ros:/home/brokkoly/ros2_foxy/install/launch_ros:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_service:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_executors:/home/brokkoly/ros2_foxy/install/demo_nodes_py:/home/brokkoly/ros2_foxy/install/action_tutorials_py:/home/brokkoly/ros2_foxy/install/ament_uncrustify:/home/brokkoly/ros2_foxy/install/tracetools_trace:/home/brokkoly/ros2_foxy/install/tracetools_read:/home/brokkoly/ros2_foxy/install/test_launch_ros:/home/brokkoly/ros2_foxy/install/sensor_msgs_py:/home/brokkoly/ros2_foxy/install/rpyutils:/home/brokkoly/ros2_foxy/install/rosidl_runtime_py:/home/brokkoly/ros2_foxy/install/launch_yaml:/home/brokkoly/ros2_foxy/install/launch_xml:/home/brokkoly/ros2_foxy/install/launch_testing:/home/brokkoly/ros2_foxy/install/launch:/home/brokkoly/ros2_foxy/install/osrf_pycommon:/home/brokkoly/ros2_foxy/install/domain_coordinator:/home/brokkoly/ros2_foxy/install/ament_xmllint:/home/brokkoly/ros2_foxy/install/ament_pyflakes:/home/brokkoly/ros2_foxy/install/ament_pycodestyle:/home/brokkoly/ros2_foxy/install/ament_pep257:/home/brokkoly/ros2_foxy/install/ament_pclint:/home/brokkoly/ros2_foxy/install/ament_package:/home/brokkoly/ros2_foxy/install/ament_mypy:/home/brokkoly/ros2_foxy/install/ament_lint_cmake:/home/brokkoly/ros2_foxy/install/ament_flake8:/home/brokkoly/ros2_foxy/install/ament_copyright:/home/brokkoly/ros2_foxy/install/ament_lint:/home/brokkoly/ros2_foxy/install/ament_index_python:/home/brokkoly/ros2_foxy/install/ament_cpplint:/home/brokkoly/ros2_foxy/install/ament_cppcheck:/home/brokkoly/ros2_foxy/install/ament_clang_tidy:/home/brokkoly/ros2_foxy/install/ament_clang_format /usr/local/bin/cmake /media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros -DCMAKE_INSTALL_PREFIX=/media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros/install/pcl_ros

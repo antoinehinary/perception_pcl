@@ -1,0 +1,523 @@
+[0.000000] (-) TimerEvent: {}
+[0.002526] (pcl_ros) JobQueued: {'identifier': 'pcl_ros', 'dependencies': OrderedDict()}
+[0.004905] (pcl_ros) JobStarted: {'identifier': 'pcl_ros'}
+[0.102158] (-) TimerEvent: {}
+[0.202886] (-) TimerEvent: {}
+[0.280380] (pcl_ros) JobProgress: {'identifier': 'pcl_ros', 'progress': 'cmake'}
+[0.281234] (pcl_ros) Command: {'cmd': ['/usr/local/bin/cmake', '/media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros', '-DCMAKE_INSTALL_PREFIX=/media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros/install/pcl_ros'], 'cwd': '/media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros/build/pcl_ros', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/brokkoly/.virtualenvs'), ('USER', 'brokkoly'), ('LC_TIME', 'de_CH.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '8078'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/brokkoly/ros2_foxy/install/rosbag2_transport/lib:/home/brokkoly/ros2_foxy/install/rosbag2_compression/lib:/home/brokkoly/ros2_foxy/install/zstd_vendor/lib:/home/brokkoly/ros2_foxy/install/rviz_default_plugins/lib:/home/brokkoly/ros2_foxy/install/rviz_common/lib:/home/brokkoly/ros2_foxy/install/rosbag2_storage_default_plugins/lib:/home/brokkoly/ros2_foxy/install/rosbag2_converter_default_plugins/lib:/home/brokkoly/ros2_foxy/install/rosbag2_cpp/lib:/home/brokkoly/ros2_foxy/install/rosbag2_storage/lib:/home/brokkoly/ros2_foxy/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib:/home/brokkoly/ros2_foxy/install/interactive_markers/lib:/home/brokkoly/ros2_foxy/install/visualization_msgs/lib:/home/brokkoly/ros2_foxy/install/robot_state_publisher/lib:/home/brokkoly/ros2_foxy/install/kdl_parser/lib:/home/brokkoly/ros2_foxy/install/urdf/lib:/home/brokkoly/ros2_foxy/install/urdfdom/lib:/home/brokkoly/ros2_foxy/install/turtlesim/lib:/home/brokkoly/ros2_foxy/install/tf2_bullet/lib:/home/brokkoly/ros2_foxy/install/tf2_ros/lib:/home/brokkoly/ros2_foxy/install/tf2_msgs/lib:/home/brokkoly/ros2_foxy/install/test_msgs/lib:/home/brokkoly/ros2_foxy/install/demo_nodes_cpp/lib:/home/brokkoly/ros2_foxy/install/composition/lib:/home/brokkoly/ros2_foxy/install/rclpy/lib:/home/brokkoly/ros2_foxy/install/action_tutorials_cpp/lib:/home/brokkoly/ros2_foxy/install/rclcpp_action/lib:/home/brokkoly/ros2_foxy/install/rcl_action/lib:/home/brokkoly/ros2_foxy/install/move_base_msgs/lib:/home/brokkoly/ros2_foxy/install/example_interfaces/lib:/home/brokkoly/ros2_foxy/install/action_tutorials_interfaces/lib:/home/brokkoly/ros2_foxy/install/action_msgs/lib:/home/brokkoly/ros2_foxy/install/unique_identifier_msgs/lib:/home/brokkoly/ros2_foxy/install/trajectory_msgs/lib:/home/brokkoly/ros2_foxy/install/rqt_gui_cpp/lib:/home/brokkoly/ros2_foxy/install/rclcpp_lifecycle/lib:/home/brokkoly/ros2_foxy/install/logging_demo/lib:/home/brokkoly/ros2_foxy/install/image_tools/lib:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_composition/lib:/home/brokkoly/ros2_foxy/install/demo_nodes_cpp_native/lib:/home/brokkoly/ros2_foxy/install/rclcpp_components/lib:/home/brokkoly/ros2_foxy/install/laser_geometry/lib:/home/brokkoly/ros2_foxy/install/rclcpp/lib:/home/brokkoly/ros2_foxy/install/rcl_lifecycle/lib:/home/brokkoly/ros2_foxy/install/libstatistics_collector/lib:/home/brokkoly/ros2_foxy/install/rcl/lib:/home/brokkoly/ros2_foxy/install/tracetools/lib:/home/brokkoly/ros2_foxy/install/tlsf/lib:/home/brokkoly/ros2_foxy/install/qt_gui_cpp/lib:/home/brokkoly/ros2_foxy/install/tf2_eigen_kdl/lib:/home/brokkoly/ros2_foxy/install/tf2/lib:/home/brokkoly/ros2_foxy/install/stereo_msgs/lib:/home/brokkoly/ros2_foxy/install/std_srvs/lib:/home/brokkoly/ros2_foxy/install/shape_msgs/lib:/home/brokkoly/ros2_foxy/install/map_msgs/lib:/home/brokkoly/ros2_foxy/install/sensor_msgs/lib:/home/brokkoly/ros2_foxy/install/nav_msgs/lib:/home/brokkoly/ros2_foxy/install/diagnostic_msgs/lib:/home/brokkoly/ros2_foxy/install/geometry_msgs/lib:/home/brokkoly/ros2_foxy/install/actionlib_msgs/lib:/home/brokkoly/ros2_foxy/install/std_msgs/lib:/home/brokkoly/ros2_foxy/install/statistics_msgs/lib:/home/brokkoly/ros2_foxy/install/rcl_logging_spdlog/lib:/home/brokkoly/ros2_foxy/install/spdlog_vendor/lib:/home/brokkoly/ros2_foxy/install/rviz_rendering/lib:/home/brokkoly/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/brokkoly/ros2_foxy/install/rttest/lib:/home/brokkoly/ros2_foxy/install/rosgraph_msgs/lib:/home/brokkoly/ros2_foxy/install/rmw_implementation/lib:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_dynamic_cpp/lib:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_cpp/lib:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_shared_cpp/lib:/home/brokkoly/ros2_foxy/install/rmw_cyclonedds_cpp/lib:/home/brokkoly/ros2_foxy/install/rmw_dds_common/lib:/home/brokkoly/ros2_foxy/install/composition_interfaces/lib:/home/brokkoly/ros2_foxy/install/rcl_interfaces/lib:/home/brokkoly/ros2_foxy/install/pendulum_msgs/lib:/home/brokkoly/ros2_foxy/install/lifecycle_msgs/lib:/home/brokkoly/ros2_foxy/install/builtin_interfaces/lib:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_c/lib:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp/lib:/home/brokkoly/ros2_foxy/install/rmw/lib:/home/brokkoly/ros2_foxy/install/rosidl_runtime_c/lib:/home/brokkoly/ros2_foxy/install/resource_retriever/lib:/home/brokkoly/ros2_foxy/install/class_loader/lib:/home/brokkoly/ros2_foxy/install/rcpputils/lib:/home/brokkoly/ros2_foxy/install/rcl_logging_noop/lib:/home/brokkoly/ros2_foxy/install/rcl_logging_log4cxx/lib:/home/brokkoly/ros2_foxy/install/rcutils/lib:/home/brokkoly/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/brokkoly/ros2_foxy/install/performance_test_fixture/lib:/home/brokkoly/ros2_foxy/install/osrf_testing_tools_cpp/lib:/home/brokkoly/ros2_foxy/install/orocos_kdl/lib:/home/brokkoly/ros2_foxy/install/mimick_vendor/lib:/home/brokkoly/ros2_foxy/install/message_filters/lib:/home/brokkoly/ros2_foxy/install/libyaml_vendor/lib:/home/brokkoly/ros2_foxy/install/google_benchmark_vendor/lib:/home/brokkoly/ros2_foxy/install/fastrtps/lib:/home/brokkoly/ros2_foxy/install/fastcdr/lib:/home/brokkoly/ros2_foxy/install/cyclonedds/lib:/home/brokkoly/ros2_foxy/install/console_bridge_vendor/lib:/home/brokkoly/ros2_foxy/install/ament_index_cpp/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/brokkoly'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros/colcon'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/brokkoly/ros2_foxy/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brokkoly'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/brokkoly/ros2_foxy/install/urdfdom/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/urdfdom/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/urdfdom_headers/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/test_osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/test_osrf_testing_tools_cpp/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/osrf_testing_tools_cpp/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/orocos_kdl/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/orocos_kdl/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/gmock_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/gmock_vendor/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/gtest_vendor/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/google_benchmark_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/google_benchmark_vendor/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/foonathan_memory_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/foonathan_memory_vendor/lib/pkgconfig:/home/brokkoly/ros2_foxy/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/brokkoly/ros2_foxy/install/cyclonedds/lib/pkgconfig'), ('USERNAME', 'brokkoly'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/brokkoly/ros2_foxy/install/rviz2/bin:/home/brokkoly/ros2_foxy/install/urdfdom/bin:/home/brokkoly/ros2_foxy/install/rqt_graph/bin:/home/brokkoly/ros2_foxy/install/rqt_gui/bin:/home/brokkoly/ros2_foxy/install/ros2cli/bin:/home/brokkoly/ros2_foxy/install/ament_uncrustify/bin:/home/brokkoly/ros2_foxy/install/uncrustify_vendor/bin:/home/brokkoly/ros2_foxy/install/pendulum_control/bin:/home/brokkoly/ros2_foxy/install/tlsf_cpp/bin:/home/brokkoly/ros2_foxy/install/rttest/bin:/home/brokkoly/ros2_foxy/install/launch_testing/bin:/home/brokkoly/ros2_foxy/install/fastrtps/bin:/home/brokkoly/ros2_foxy/install/foonathan_memory_vendor/bin:/home/brokkoly/ros2_foxy/install/cyclonedds/bin:/home/brokkoly/ros2_foxy/install/ament_xmllint/bin:/home/brokkoly/ros2_foxy/install/ament_pyflakes/bin:/home/brokkoly/ros2_foxy/install/ament_pycodestyle/bin:/home/brokkoly/ros2_foxy/install/ament_pep257/bin:/home/brokkoly/ros2_foxy/install/ament_pclint/bin:/home/brokkoly/ros2_foxy/install/ament_mypy/bin:/home/brokkoly/ros2_foxy/install/ament_lint_cmake/bin:/home/brokkoly/ros2_foxy/install/ament_flake8/bin:/home/brokkoly/ros2_foxy/install/ament_copyright/bin:/home/brokkoly/ros2_foxy/install/ament_index_python/bin:/home/brokkoly/ros2_foxy/install/ament_cpplint/bin:/home/brokkoly/ros2_foxy/install/ament_cppcheck/bin:/home/brokkoly/ros2_foxy/install/ament_clang_tidy/bin:/home/brokkoly/ros2_foxy/install/ament_clang_format/bin:/home/brokkoly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/brokkoly/Luxonis/depthai/entrypoint'), ('SESSION_MANAGER', 'local/drone:@/tmp/.ICE-unix/7974,unix/drone:/tmp/.ICE-unix/7974'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b952f59a_cc0c_49af_ad12_95e4e6059713'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.65'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/brokkoly/ros2_foxy/install/rosbag2:/home/brokkoly/ros2_foxy/install/ros2bag:/home/brokkoly/ros2_foxy/install/rosbag2_transport:/home/brokkoly/ros2_foxy/install/rosbag2_compression:/home/brokkoly/ros2_foxy/install/zstd_vendor:/home/brokkoly/ros2_foxy/install/rviz_visual_testing_framework:/home/brokkoly/ros2_foxy/install/rviz2:/home/brokkoly/ros2_foxy/install/rviz_default_plugins:/home/brokkoly/ros2_foxy/install/rviz_common:/home/brokkoly/ros2_foxy/install/rosbag2_storage_default_plugins:/home/brokkoly/ros2_foxy/install/rosbag2_converter_default_plugins:/home/brokkoly/ros2_foxy/install/bag_recorder_nodes:/home/brokkoly/ros2_foxy/install/rosbag2_cpp:/home/brokkoly/ros2_foxy/install/rosbag2_storage:/home/brokkoly/ros2_foxy/install/yaml_cpp_vendor:/home/brokkoly/ros2_foxy/install/ros1_bridge:/home/brokkoly/ros2_foxy/install/interactive_markers:/home/brokkoly/ros2_foxy/install/common_interfaces:/home/brokkoly/ros2_foxy/install/visualization_msgs:/home/brokkoly/ros2_foxy/install/dummy_robot_bringup:/home/brokkoly/ros2_foxy/install/robot_state_publisher:/home/brokkoly/ros2_foxy/install/kdl_parser:/home/brokkoly/ros2_foxy/install/urdf:/home/brokkoly/ros2_foxy/install/turtlesim:/home/brokkoly/ros2_foxy/install/tracetools_launch:/home/brokkoly/ros2_foxy/install/topic_monitor:/home/brokkoly/ros2_foxy/install/geometry2:/home/brokkoly/ros2_foxy/install/tf2_tools:/home/brokkoly/ros2_foxy/install/tf2_sensor_msgs:/home/brokkoly/ros2_foxy/install/test_tf2:/home/brokkoly/ros2_foxy/install/tf2_kdl:/home/brokkoly/ros2_foxy/install/tf2_geometry_msgs:/home/brokkoly/ros2_foxy/install/tf2_eigen:/home/brokkoly/ros2_foxy/install/tf2_bullet:/home/brokkoly/ros2_foxy/install/examples_tf2_py:/home/brokkoly/ros2_foxy/install/tf2_ros:/home/brokkoly/ros2_foxy/install/tf2_py:/home/brokkoly/ros2_foxy/install/tf2_msgs:/home/brokkoly/ros2_foxy/install/test_msgs:/home/brokkoly/ros2_foxy/install/sros2_cmake:/home/brokkoly/ros2_foxy/install/ros2cli_common_extensions:/home/brokkoly/ros2_foxy/install/sros2:/home/brokkoly/ros2_foxy/install/rqt_topic:/home/brokkoly/ros2_foxy/install/rqt_top:/home/brokkoly/ros2_foxy/install/rqt_srv:/home/brokkoly/ros2_foxy/install/rqt_shell:/home/brokkoly/ros2_foxy/install/rqt_service_caller:/home/brokkoly/ros2_foxy/install/rqt_reconfigure:/home/brokkoly/ros2_foxy/install/rqt_py_console:/home/brokkoly/ros2_foxy/install/rqt_publisher:/home/brokkoly/ros2_foxy/install/rqt_plot:/home/brokkoly/ros2_foxy/install/rqt_action:/home/brokkoly/ros2_foxy/install/rqt_msg:/home/brokkoly/ros2_foxy/install/rqt_console:/home/brokkoly/ros2_foxy/install/rqt:/home/brokkoly/ros2_foxy/install/rqt_py_common:/home/brokkoly/ros2_foxy/install/rqt_graph:/home/brokkoly/ros2_foxy/install/rqt_gui_py:/home/brokkoly/ros2_foxy/install/rqt_gui:/home/brokkoly/ros2_foxy/install/ros_testing:/home/brokkoly/ros2_foxy/install/ros2trace:/home/brokkoly/ros2_foxy/install/ros2topic:/home/brokkoly/ros2_foxy/install/ros2test:/home/brokkoly/ros2_foxy/install/ros2component:/home/brokkoly/ros2_foxy/install/ros2param:/home/brokkoly/ros2_foxy/install/ros2lifecycle:/home/brokkoly/ros2_foxy/install/ros2service:/home/brokkoly/ros2_foxy/install/ros2run:/home/brokkoly/ros2_foxy/install/ros2launch:/home/brokkoly/ros2_foxy/install/ros2pkg:/home/brokkoly/ros2_foxy/install/ros2node:/home/brokkoly/ros2_foxy/install/ros2multicast:/home/brokkoly/ros2_foxy/install/ros2interface:/home/brokkoly/ros2_foxy/install/ros2doctor:/home/brokkoly/ros2_foxy/install/ros2action:/home/brokkoly/ros2_foxy/install/ros2cli:/home/brokkoly/ros2_foxy/install/quality_of_service_demo_py:/home/brokkoly/ros2_foxy/install/quality_of_service_demo_cpp:/home/brokkoly/ros2_foxy/install/launch_testing_ros:/home/brokkoly/ros2_foxy/install/demo_nodes_cpp:/home/brokkoly/ros2_foxy/install/composition:/home/brokkoly/ros2_foxy/install/launch_ros:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_service:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_executors:/home/brokkoly/ros2_foxy/install/demo_nodes_py:/home/brokkoly/ros2_foxy/install/action_tutorials_py:/home/brokkoly/ros2_foxy/install/rclpy:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_action_server:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_action_client:/home/brokkoly/ros2_foxy/install/action_tutorials_cpp:/home/brokkoly/ros2_foxy/install/rclcpp_action:/home/brokkoly/ros2_foxy/install/rcl_action:/home/brokkoly/ros2_foxy/install/move_base_msgs:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_service:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_client:/home/brokkoly/ros2_foxy/install/example_interfaces:/home/brokkoly/ros2_foxy/install/action_tutorials_interfaces:/home/brokkoly/ros2_foxy/install/action_msgs:/home/brokkoly/ros2_foxy/install/unique_identifier_msgs:/home/brokkoly/ros2_foxy/install/ament_lint_common:/home/brokkoly/ros2_foxy/install/ament_cmake_uncrustify:/home/brokkoly/ros2_foxy/install/ament_uncrustify:/home/brokkoly/ros2_foxy/install/uncrustify_vendor:/home/brokkoly/ros2_foxy/install/trajectory_msgs:/home/brokkoly/ros2_foxy/install/tracetools_trace:/home/brokkoly/ros2_foxy/install/tracetools_test:/home/brokkoly/ros2_foxy/install/tracetools_read:/home/brokkoly/ros2_foxy/install/pendulum_control:/home/brokkoly/ros2_foxy/install/tlsf_cpp:/home/brokkoly/ros2_foxy/install/rqt_gui_cpp:/home/brokkoly/ros2_foxy/install/rosbag2_test_common:/home/brokkoly/ros2_foxy/install/ros2lifecycle_test_fixtures:/home/brokkoly/ros2_foxy/install/lifecycle:/home/brokkoly/ros2_foxy/install/rclcpp_lifecycle:/home/brokkoly/ros2_foxy/install/logging_demo:/home/brokkoly/ros2_foxy/install/image_tools:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_composition:/home/brokkoly/ros2_foxy/install/demo_nodes_cpp_native:/home/brokkoly/ros2_foxy/install/rclcpp_components:/home/brokkoly/ros2_foxy/install/laser_geometry:/home/brokkoly/ros2_foxy/install/intra_process_demo:/home/brokkoly/ros2_foxy/install/examples_rclcpp_multithreaded_executor:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_timer:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_subscriber:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_publisher:/home/brokkoly/ros2_foxy/install/dummy_sensors:/home/brokkoly/ros2_foxy/install/dummy_map_server:/home/brokkoly/ros2_foxy/install/rclcpp:/home/brokkoly/ros2_foxy/install/rcl_lifecycle:/home/brokkoly/ros2_foxy/install/libstatistics_collector:/home/brokkoly/ros2_foxy/install/rcl:/home/brokkoly/ros2_foxy/install/tracetools:/home/brokkoly/ros2_foxy/install/tlsf:/home/brokkoly/ros2_foxy/install/tinyxml_vendor:/home/brokkoly/ros2_foxy/install/qt_gui_core:/home/brokkoly/ros2_foxy/install/qt_gui_cpp:/home/brokkoly/ros2_foxy/install/pluginlib:/home/brokkoly/ros2_foxy/install/tinyxml2_vendor:/home/brokkoly/ros2_foxy/install/tf2_eigen_kdl:/home/brokkoly/ros2_foxy/install/tf2:/home/brokkoly/ros2_foxy/install/test_security:/home/brokkoly/ros2_foxy/install/test_rmw_implementation:/home/brokkoly/ros2_foxy/install/test_rclcpp:/home/brokkoly/ros2_foxy/install/test_quality_of_service:/home/brokkoly/ros2_foxy/install/test_launch_testing:/home/brokkoly/ros2_foxy/install/test_launch_ros:/home/brokkoly/ros2_foxy/install/test_interface_files:/home/brokkoly/ros2_foxy/install/test_communication:/home/brokkoly/ros2_foxy/install/test_cli_remapping:/home/brokkoly/ros2_foxy/install/test_cli:/home/brokkoly/ros2_foxy/install/qt_gui_app:/home/brokkoly/ros2_foxy/install/qt_gui:/home/brokkoly/ros2_foxy/install/tango_icons_vendor:/home/brokkoly/ros2_foxy/install/stereo_msgs:/home/brokkoly/ros2_foxy/install/std_srvs:/home/brokkoly/ros2_foxy/install/shape_msgs:/home/brokkoly/ros2_foxy/install/sensor_msgs_py:/home/brokkoly/ros2_foxy/install/map_msgs:/home/brokkoly/ros2_foxy/install/sensor_msgs:/home/brokkoly/ros2_foxy/install/nav_msgs:/home/brokkoly/ros2_foxy/install/diagnostic_msgs:/home/brokkoly/ros2_foxy/install/geometry_msgs:/home/brokkoly/ros2_foxy/install/actionlib_msgs:/home/brokkoly/ros2_foxy/install/std_msgs:/home/brokkoly/ros2_foxy/install/statistics_msgs:/home/brokkoly/ros2_foxy/install/sqlite3_vendor:/home/brokkoly/ros2_foxy/install/rcl_logging_spdlog:/home/brokkoly/ros2_foxy/install/spdlog_vendor:/home/brokkoly/ros2_foxy/install/shared_queues_vendor:/home/brokkoly/ros2_foxy/install/rviz_rendering_tests:/home/brokkoly/ros2_foxy/install/rviz_rendering:/home/brokkoly/ros2_foxy/install/rviz_ogre_vendor:/home/brokkoly/ros2_foxy/install/rviz_assimp_vendor:/home/brokkoly/ros2_foxy/install/rttest:/home/brokkoly/ros2_foxy/install/rosgraph_msgs:/home/brokkoly/ros2_foxy/install/rmw_implementation:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_dynamic_cpp:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_cpp:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_shared_cpp:/home/brokkoly/ros2_foxy/install/rmw_cyclonedds_cpp:/home/brokkoly/ros2_foxy/install/rmw_dds_common:/home/brokkoly/ros2_foxy/install/composition_interfaces:/home/brokkoly/ros2_foxy/install/rcl_interfaces:/home/brokkoly/ros2_foxy/install/pendulum_msgs:/home/brokkoly/ros2_foxy/install/lifecycle_msgs:/home/brokkoly/ros2_foxy/install/builtin_interfaces:/home/brokkoly/ros2_foxy/install/rosidl_default_runtime:/home/brokkoly/ros2_foxy/install/rosidl_default_generators:/home/brokkoly/ros2_foxy/install/rosidl_generator_py:/home/brokkoly/ros2_foxy/install/rpyutils:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_cpp:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_introspection_cpp:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_introspection_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_fastrtps_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp:/home/brokkoly/ros2_foxy/install/rmw_connext_cpp:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_connext_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_connext_cpp:/home/brokkoly/ros2_foxy/install/rmw:/home/brokkoly/ros2_foxy/install/rosidl_runtime_c:/home/brokkoly/ros2_foxy/install/rosidl_generator_cpp:/home/brokkoly/ros2_foxy/install/rosidl_generator_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_interface:/home/brokkoly/ros2_foxy/install/rosidl_runtime_py:/home/brokkoly/ros2_foxy/install/rosidl_runtime_cpp:/home/brokkoly/ros2_foxy/install/rosidl_generator_dds_idl:/home/brokkoly/ros2_foxy/install/rosidl_cmake:/home/brokkoly/ros2_foxy/install/rosidl_parser:/home/brokkoly/ros2_foxy/install/rosidl_adapter:/home/brokkoly/ros2_foxy/install/rosbag2_tests:/home/brokkoly/ros2_foxy/install/ros_environment:/home/brokkoly/ros2_foxy/install/rmw_implementation_cmake:/home/brokkoly/ros2_foxy/install/rmw_connext_shared_cpp:/home/brokkoly/ros2_foxy/install/resource_retriever:/home/brokkoly/ros2_foxy/install/class_loader:/home/brokkoly/ros2_foxy/install/rcpputils:/home/brokkoly/ros2_foxy/install/rcl_logging_noop:/home/brokkoly/ros2_foxy/install/rcl_logging_log4cxx:/home/brokkoly/ros2_foxy/install/rcutils:/home/brokkoly/ros2_foxy/install/rcl_yaml_param_parser:/home/brokkoly/ros2_foxy/install/qt_gui_py_common:/home/brokkoly/ros2_foxy/install/qt_dotgraph:/home/brokkoly/ros2_foxy/install/python_qt_binding:/home/brokkoly/ros2_foxy/install/launch_testing_ament_cmake:/home/brokkoly/ros2_foxy/install/python_cmake_module:/home/brokkoly/ros2_foxy/install/performance_test_fixture:/home/brokkoly/ros2_foxy/install/launch_yaml:/home/brokkoly/ros2_foxy/install/launch_xml:/home/brokkoly/ros2_foxy/install/launch_testing:/home/brokkoly/ros2_foxy/install/launch:/home/brokkoly/ros2_foxy/install/osrf_pycommon:/home/brokkoly/ros2_foxy/install/mimick_vendor:/home/brokkoly/ros2_foxy/install/message_filters:/home/brokkoly/ros2_foxy/install/libyaml_vendor:/home/brokkoly/ros2_foxy/install/libcurl_vendor:/home/brokkoly/ros2_foxy/install/ament_cmake_ros:/home/brokkoly/ros2_foxy/install/ament_cmake_gmock:/home/brokkoly/ros2_foxy/install/ament_cmake_gtest:/home/brokkoly/ros2_foxy/install/ament_cmake_google_benchmark:/home/brokkoly/ros2_foxy/install/fastrtps_cmake_module:/home/brokkoly/ros2_foxy/install/eigen3_cmake_module:/home/brokkoly/ros2_foxy/install/domain_coordinator:/home/brokkoly/ros2_foxy/install/console_bridge_vendor:/home/brokkoly/ros2_foxy/install/connext_cmake_module:/home/brokkoly/ros2_foxy/install/ament_cmake_xmllint:/home/brokkoly/ros2_foxy/install/ament_xmllint:/home/brokkoly/ros2_foxy/install/ament_cmake_pyflakes:/home/brokkoly/ros2_foxy/install/ament_pyflakes:/home/brokkoly/ros2_foxy/install/ament_cmake_pycodestyle:/home/brokkoly/ros2_foxy/install/ament_pycodestyle:/home/brokkoly/ros2_foxy/install/ament_cmake_pep257:/home/brokkoly/ros2_foxy/install/ament_pep257:/home/brokkoly/ros2_foxy/install/ament_cmake_pclint:/home/brokkoly/ros2_foxy/install/ament_pclint:/home/brokkoly/ros2_foxy/install/ament_lint_auto:/home/brokkoly/ros2_foxy/install/ament_cmake_auto:/home/brokkoly/ros2_foxy/install/ament_cmake:/home/brokkoly/ros2_foxy/install/ament_cmake_version:/home/brokkoly/ros2_foxy/install/ament_cmake_pytest:/home/brokkoly/ros2_foxy/install/ament_cmake_nose:/home/brokkoly/ros2_foxy/install/ament_cmake_mypy:/home/brokkoly/ros2_foxy/install/ament_cmake_lint_cmake:/home/brokkoly/ros2_foxy/install/ament_cmake_flake8:/home/brokkoly/ros2_foxy/install/ament_cmake_cpplint:/home/brokkoly/ros2_foxy/install/ament_cmake_cppcheck:/home/brokkoly/ros2_foxy/install/ament_cmake_copyright:/home/brokkoly/ros2_foxy/install/ament_cmake_clang_tidy:/home/brokkoly/ros2_foxy/install/ament_cmake_clang_format:/home/brokkoly/ros2_foxy/install/ament_cmake_test:/home/brokkoly/ros2_foxy/install/ament_cmake_target_dependencies:/home/brokkoly/ros2_foxy/install/ament_cmake_python:/home/brokkoly/ros2_foxy/install/ament_cmake_export_dependencies:/home/brokkoly/ros2_foxy/install/ament_cmake_libraries:/home/brokkoly/ros2_foxy/install/ament_cmake_include_directories:/home/brokkoly/ros2_foxy/install/ament_cmake_export_targets:/home/brokkoly/ros2_foxy/install/ament_cmake_export_link_flags:/home/brokkoly/ros2_foxy/install/ament_cmake_export_interfaces:/home/brokkoly/ros2_foxy/install/ament_cmake_export_libraries:/home/brokkoly/ros2_foxy/install/ament_cmake_export_include_directories:/home/brokkoly/ros2_foxy/install/ament_cmake_export_definitions:/home/brokkoly/ros2_foxy/install/ament_cmake_core:/home/brokkoly/ros2_foxy/install/ament_package:/home/brokkoly/ros2_foxy/install/ament_mypy:/home/brokkoly/ros2_foxy/install/ament_lint_cmake:/home/brokkoly/ros2_foxy/install/ament_flake8:/home/brokkoly/ros2_foxy/install/ament_copyright:/home/brokkoly/ros2_foxy/install/ament_lint:/home/brokkoly/ros2_foxy/install/ament_index_python:/home/brokkoly/ros2_foxy/install/ament_index_cpp:/home/brokkoly/ros2_foxy/install/ament_cpplint:/home/brokkoly/ros2_foxy/install/ament_cppcheck:/home/brokkoly/ros2_foxy/install/ament_clang_tidy:/home/brokkoly/ros2_foxy/install/ament_clang_format'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'de_CH.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/brokkoly/.virtualenvs'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('XDG_VTNR', '2'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/local/bin/virtualenvwrapper.sh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/brokkoly/Brokkoly/Brokkoly-SW/brokkoly_ws/src/perception_pcl/pcl_ros/build/pcl_ros'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('PYTHONPATH', '/media/brokkoly/Brokkoly/ros2_foxy/build/ros2bag:/home/brokkoly/ros2_foxy/install/ros2bag/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosbag2_transport/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/interactive_markers/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/visualization_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/turtlesim/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/tracetools_launch:/home/brokkoly/ros2_foxy/install/tracetools_launch/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/topic_monitor:/home/brokkoly/ros2_foxy/install/topic_monitor/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/tf2_kdl/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/tf2_geometry_msgs/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/examples_tf2_py:/home/brokkoly/ros2_foxy/install/examples_tf2_py/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/tf2_ros/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/tf2_py/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/tf2_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/test_msgs/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/sros2:/home/brokkoly/ros2_foxy/install/sros2/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_topic/src:/home/brokkoly/ros2_foxy/install/rqt_topic/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_top/src:/home/brokkoly/ros2_foxy/install/rqt_top/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_srv/src:/home/brokkoly/ros2_foxy/install/rqt_srv/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_shell/src:/home/brokkoly/ros2_foxy/install/rqt_shell/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_service_caller/src:/home/brokkoly/ros2_foxy/install/rqt_service_caller/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_reconfigure/src:/home/brokkoly/ros2_foxy/install/rqt_reconfigure/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_py_console/src:/home/brokkoly/ros2_foxy/install/rqt_py_console/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_publisher/src:/home/brokkoly/ros2_foxy/install/rqt_publisher/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_plot/src:/home/brokkoly/ros2_foxy/install/rqt_plot/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_action/src:/home/brokkoly/ros2_foxy/install/rqt_action/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_msg/src:/home/brokkoly/ros2_foxy/install/rqt_msg/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_console/src:/home/brokkoly/ros2_foxy/install/rqt_console/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt:/home/brokkoly/ros2_foxy/install/rqt/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rqt_py_common/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_graph/src:/home/brokkoly/ros2_foxy/install/rqt_graph/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_gui_py/src:/home/brokkoly/ros2_foxy/install/rqt_gui_py/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rqt_gui/src:/home/brokkoly/ros2_foxy/install/rqt_gui/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2trace:/home/brokkoly/ros2_foxy/install/ros2trace/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2topic:/home/brokkoly/ros2_foxy/install/ros2topic/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2test:/home/brokkoly/ros2_foxy/install/ros2test/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2component:/home/brokkoly/ros2_foxy/install/ros2component/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2param:/home/brokkoly/ros2_foxy/install/ros2param/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2lifecycle:/home/brokkoly/ros2_foxy/install/ros2lifecycle/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2service:/home/brokkoly/ros2_foxy/install/ros2service/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2run:/home/brokkoly/ros2_foxy/install/ros2run/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2launch:/home/brokkoly/ros2_foxy/install/ros2launch/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2pkg:/home/brokkoly/ros2_foxy/install/ros2pkg/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2node:/home/brokkoly/ros2_foxy/install/ros2node/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2multicast:/home/brokkoly/ros2_foxy/install/ros2multicast/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2interface:/home/brokkoly/ros2_foxy/install/ros2interface/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2doctor:/home/brokkoly/ros2_foxy/install/ros2doctor/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2action:/home/brokkoly/ros2_foxy/install/ros2action/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ros2cli:/home/brokkoly/ros2_foxy/install/ros2cli/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/quality_of_service_demo_py:/home/brokkoly/ros2_foxy/install/quality_of_service_demo_py/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/launch_testing_ros:/home/brokkoly/ros2_foxy/install/launch_testing_ros/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/launch_ros:/home/brokkoly/ros2_foxy/install/launch_ros/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/examples_rclpy_minimal_subscriber:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/examples_rclpy_minimal_service:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_service/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/examples_rclpy_minimal_publisher:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/examples_rclpy_minimal_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_client/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/examples_rclpy_minimal_action_server:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/examples_rclpy_minimal_action_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_client/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/examples_rclpy_executors:/home/brokkoly/ros2_foxy/install/examples_rclpy_executors/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/demo_nodes_py:/home/brokkoly/ros2_foxy/install/demo_nodes_py/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/action_tutorials_py:/home/brokkoly/ros2_foxy/install/action_tutorials_py/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rclpy/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/move_base_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/example_interfaces/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/action_tutorials_interfaces/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/action_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/unique_identifier_msgs/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_uncrustify:/home/brokkoly/ros2_foxy/install/ament_uncrustify/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/trajectory_msgs/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/tracetools_trace:/home/brokkoly/ros2_foxy/install/tracetools_trace/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/tracetools_read:/home/brokkoly/ros2_foxy/install/tracetools_read/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/logging_demo/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/libstatistics_collector/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/qt_gui_cpp/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/test_launch_ros:/home/brokkoly/ros2_foxy/install/test_launch_ros/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/qt_gui/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/stereo_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/std_srvs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/shape_msgs/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/sensor_msgs_py:/home/brokkoly/ros2_foxy/install/sensor_msgs_py/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/map_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/sensor_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/nav_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/diagnostic_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/geometry_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/actionlib_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/std_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/statistics_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosgraph_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rmw_dds_common/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/composition_interfaces/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rcl_interfaces/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/pendulum_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/lifecycle_msgs/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/builtin_interfaces/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_generator_py/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rpyutils:/home/brokkoly/ros2_foxy/install/rpyutils/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_cpp/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_c/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_introspection_c/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_generator_cpp/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_generator_c/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/rosidl_runtime_py:/home/brokkoly/ros2_foxy/install/rosidl_runtime_py/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_generator_dds_idl/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_cmake/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_parser/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rosidl_adapter/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/resource_retriever/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/rcutils/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/qt_gui_py_common/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/qt_dotgraph/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/python_qt_binding/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/launch_yaml:/home/brokkoly/ros2_foxy/install/launch_yaml/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/launch_xml:/home/brokkoly/ros2_foxy/install/launch_xml/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/launch_testing:/home/brokkoly/ros2_foxy/install/launch_testing/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/launch:/home/brokkoly/ros2_foxy/install/launch/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/osrf_pycommon:/home/brokkoly/ros2_foxy/install/osrf_pycommon/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/message_filters/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/ament_cmake_google_benchmark/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/domain_coordinator:/home/brokkoly/ros2_foxy/install/domain_coordinator/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_xmllint:/home/brokkoly/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_pyflakes:/home/brokkoly/ros2_foxy/install/ament_pyflakes/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_pycodestyle:/home/brokkoly/ros2_foxy/install/ament_pycodestyle/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_pep257:/home/brokkoly/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_pclint:/home/brokkoly/ros2_foxy/install/ament_pclint/lib/python3.6/site-packages:/home/brokkoly/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_package:/home/brokkoly/ros2_foxy/install/ament_package/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_mypy:/home/brokkoly/ros2_foxy/install/ament_mypy/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_lint_cmake:/home/brokkoly/ros2_foxy/install/ament_lint_cmake/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_flake8:/home/brokkoly/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_copyright:/home/brokkoly/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_lint:/home/brokkoly/ros2_foxy/install/ament_lint/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_index_python:/home/brokkoly/ros2_foxy/install/ament_index_python/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_cpplint:/home/brokkoly/ros2_foxy/install/ament_cpplint/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_cppcheck:/home/brokkoly/ros2_foxy/install/ament_cppcheck/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_clang_tidy:/home/brokkoly/ros2_foxy/install/ament_clang_tidy/lib/python3.6/site-packages:/media/brokkoly/Brokkoly/ros2_foxy/build/ament_clang_format:/home/brokkoly/ros2_foxy/install/ament_clang_format/lib/python3.6/site-packages'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/brokkoly/ros2_foxy/install/rosbag2:/home/brokkoly/ros2_foxy/install/rosbag2_transport:/home/brokkoly/ros2_foxy/install/rosbag2_compression:/home/brokkoly/ros2_foxy/install/zstd_vendor:/home/brokkoly/ros2_foxy/install/rviz_visual_testing_framework:/home/brokkoly/ros2_foxy/install/rviz2:/home/brokkoly/ros2_foxy/install/rviz_default_plugins:/home/brokkoly/ros2_foxy/install/rviz_common:/home/brokkoly/ros2_foxy/install/rosbag2_storage_default_plugins:/home/brokkoly/ros2_foxy/install/rosbag2_converter_default_plugins:/home/brokkoly/ros2_foxy/install/bag_recorder_nodes:/home/brokkoly/ros2_foxy/install/rosbag2_cpp:/home/brokkoly/ros2_foxy/install/rosbag2_storage:/home/brokkoly/ros2_foxy/install/yaml_cpp_vendor:/home/brokkoly/ros2_foxy/install/ros1_bridge:/home/brokkoly/ros2_foxy/install/interactive_markers:/home/brokkoly/ros2_foxy/install/common_interfaces:/home/brokkoly/ros2_foxy/install/visualization_msgs:/home/brokkoly/ros2_foxy/install/dummy_robot_bringup:/home/brokkoly/ros2_foxy/install/robot_state_publisher:/home/brokkoly/ros2_foxy/install/kdl_parser:/home/brokkoly/ros2_foxy/install/urdf:/home/brokkoly/ros2_foxy/install/urdfdom:/home/brokkoly/ros2_foxy/install/urdfdom_headers:/home/brokkoly/ros2_foxy/install/turtlesim:/home/brokkoly/ros2_foxy/install/geometry2:/home/brokkoly/ros2_foxy/install/tf2_tools:/home/brokkoly/ros2_foxy/install/tf2_sensor_msgs:/home/brokkoly/ros2_foxy/install/test_tf2:/home/brokkoly/ros2_foxy/install/tf2_kdl:/home/brokkoly/ros2_foxy/install/tf2_geometry_msgs:/home/brokkoly/ros2_foxy/install/tf2_eigen:/home/brokkoly/ros2_foxy/install/tf2_bullet:/home/brokkoly/ros2_foxy/install/tf2_ros:/home/brokkoly/ros2_foxy/install/tf2_py:/home/brokkoly/ros2_foxy/install/tf2_msgs:/home/brokkoly/ros2_foxy/install/test_msgs:/home/brokkoly/ros2_foxy/install/sros2_cmake:/home/brokkoly/ros2_foxy/install/ros2cli_common_extensions:/home/brokkoly/ros2_foxy/install/rqt_py_common:/home/brokkoly/ros2_foxy/install/ros_testing:/home/brokkoly/ros2_foxy/install/quality_of_service_demo_cpp:/home/brokkoly/ros2_foxy/install/demo_nodes_cpp:/home/brokkoly/ros2_foxy/install/composition:/home/brokkoly/ros2_foxy/install/rclpy:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_action_server:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_action_client:/home/brokkoly/ros2_foxy/install/action_tutorials_cpp:/home/brokkoly/ros2_foxy/install/rclcpp_action:/home/brokkoly/ros2_foxy/install/rcl_action:/home/brokkoly/ros2_foxy/install/move_base_msgs:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_service:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_client:/home/brokkoly/ros2_foxy/install/example_interfaces:/home/brokkoly/ros2_foxy/install/action_tutorials_interfaces:/home/brokkoly/ros2_foxy/install/action_msgs:/home/brokkoly/ros2_foxy/install/unique_identifier_msgs:/home/brokkoly/ros2_foxy/install/ament_lint_common:/home/brokkoly/ros2_foxy/install/ament_cmake_uncrustify:/home/brokkoly/ros2_foxy/install/uncrustify_vendor:/home/brokkoly/ros2_foxy/install/trajectory_msgs:/home/brokkoly/ros2_foxy/install/tracetools_test:/home/brokkoly/ros2_foxy/install/pendulum_control:/home/brokkoly/ros2_foxy/install/tlsf_cpp:/home/brokkoly/ros2_foxy/install/rqt_gui_cpp:/home/brokkoly/ros2_foxy/install/rosbag2_test_common:/home/brokkoly/ros2_foxy/install/ros2lifecycle_test_fixtures:/home/brokkoly/ros2_foxy/install/lifecycle:/home/brokkoly/ros2_foxy/install/rclcpp_lifecycle:/home/brokkoly/ros2_foxy/install/logging_demo:/home/brokkoly/ros2_foxy/install/image_tools:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_composition:/home/brokkoly/ros2_foxy/install/demo_nodes_cpp_native:/home/brokkoly/ros2_foxy/install/rclcpp_components:/home/brokkoly/ros2_foxy/install/laser_geometry:/home/brokkoly/ros2_foxy/install/intra_process_demo:/home/brokkoly/ros2_foxy/install/examples_rclcpp_multithreaded_executor:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_timer:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_subscriber:/home/brokkoly/ros2_foxy/install/examples_rclcpp_minimal_publisher:/home/brokkoly/ros2_foxy/install/dummy_sensors:/home/brokkoly/ros2_foxy/install/dummy_map_server:/home/brokkoly/ros2_foxy/install/rclcpp:/home/brokkoly/ros2_foxy/install/rcl_lifecycle:/home/brokkoly/ros2_foxy/install/libstatistics_collector:/home/brokkoly/ros2_foxy/install/rcl:/home/brokkoly/ros2_foxy/install/tracetools:/home/brokkoly/ros2_foxy/install/tlsf:/home/brokkoly/ros2_foxy/install/tinyxml_vendor:/home/brokkoly/ros2_foxy/install/qt_gui_core:/home/brokkoly/ros2_foxy/install/qt_gui_cpp:/home/brokkoly/ros2_foxy/install/pluginlib:/home/brokkoly/ros2_foxy/install/tinyxml2_vendor:/home/brokkoly/ros2_foxy/install/tf2_eigen_kdl:/home/brokkoly/ros2_foxy/install/tf2:/home/brokkoly/ros2_foxy/install/test_security:/home/brokkoly/ros2_foxy/install/test_rmw_implementation:/home/brokkoly/ros2_foxy/install/test_rclcpp:/home/brokkoly/ros2_foxy/install/test_quality_of_service:/home/brokkoly/ros2_foxy/install/test_launch_testing:/home/brokkoly/ros2_foxy/install/test_interface_files:/home/brokkoly/ros2_foxy/install/test_communication:/home/brokkoly/ros2_foxy/install/test_cli_remapping:/home/brokkoly/ros2_foxy/install/test_cli:/home/brokkoly/ros2_foxy/install/qt_gui_app:/home/brokkoly/ros2_foxy/install/qt_gui:/home/brokkoly/ros2_foxy/install/tango_icons_vendor:/home/brokkoly/ros2_foxy/install/stereo_msgs:/home/brokkoly/ros2_foxy/install/std_srvs:/home/brokkoly/ros2_foxy/install/shape_msgs:/home/brokkoly/ros2_foxy/install/map_msgs:/home/brokkoly/ros2_foxy/install/sensor_msgs:/home/brokkoly/ros2_foxy/install/nav_msgs:/home/brokkoly/ros2_foxy/install/diagnostic_msgs:/home/brokkoly/ros2_foxy/install/geometry_msgs:/home/brokkoly/ros2_foxy/install/actionlib_msgs:/home/brokkoly/ros2_foxy/install/std_msgs:/home/brokkoly/ros2_foxy/install/statistics_msgs:/home/brokkoly/ros2_foxy/install/sqlite3_vendor:/home/brokkoly/ros2_foxy/install/rcl_logging_spdlog:/home/brokkoly/ros2_foxy/install/spdlog_vendor:/home/brokkoly/ros2_foxy/install/shared_queues_vendor:/home/brokkoly/ros2_foxy/install/rviz_rendering_tests:/home/brokkoly/ros2_foxy/install/rviz_rendering:/home/brokkoly/ros2_foxy/install/rviz_ogre_vendor:/home/brokkoly/ros2_foxy/install/rviz_assimp_vendor:/home/brokkoly/ros2_foxy/install/rttest:/home/brokkoly/ros2_foxy/install/rosgraph_msgs:/home/brokkoly/ros2_foxy/install/rmw_implementation:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_dynamic_cpp:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_cpp:/home/brokkoly/ros2_foxy/install/rmw_fastrtps_shared_cpp:/home/brokkoly/ros2_foxy/install/rmw_cyclonedds_cpp:/home/brokkoly/ros2_foxy/install/rmw_dds_common:/home/brokkoly/ros2_foxy/install/composition_interfaces:/home/brokkoly/ros2_foxy/install/rcl_interfaces:/home/brokkoly/ros2_foxy/install/pendulum_msgs:/home/brokkoly/ros2_foxy/install/lifecycle_msgs:/home/brokkoly/ros2_foxy/install/builtin_interfaces:/home/brokkoly/ros2_foxy/install/rosidl_default_runtime:/home/brokkoly/ros2_foxy/install/rosidl_default_generators:/home/brokkoly/ros2_foxy/install/rosidl_generator_py:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_cpp:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_introspection_cpp:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_introspection_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_fastrtps_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp:/home/brokkoly/ros2_foxy/install/rmw_connext_cpp:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_connext_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_connext_cpp:/home/brokkoly/ros2_foxy/install/rmw:/home/brokkoly/ros2_foxy/install/rosidl_runtime_c:/home/brokkoly/ros2_foxy/install/rosidl_generator_cpp:/home/brokkoly/ros2_foxy/install/rosidl_generator_c:/home/brokkoly/ros2_foxy/install/rosidl_typesupport_interface:/home/brokkoly/ros2_foxy/install/rosidl_runtime_cpp:/home/brokkoly/ros2_foxy/install/rosidl_generator_dds_idl:/home/brokkoly/ros2_foxy/install/rosidl_cmake:/home/brokkoly/ros2_foxy/install/rosidl_parser:/home/brokkoly/ros2_foxy/install/rosidl_adapter:/home/brokkoly/ros2_foxy/install/rosbag2_tests:/home/brokkoly/ros2_foxy/install/ros_environment:/home/brokkoly/ros2_foxy/install/rmw_implementation_cmake:/home/brokkoly/ros2_foxy/install/rmw_connext_shared_cpp:/home/brokkoly/ros2_foxy/install/resource_retriever:/home/brokkoly/ros2_foxy/install/class_loader:/home/brokkoly/ros2_foxy/install/rcpputils:/home/brokkoly/ros2_foxy/install/rcl_logging_noop:/home/brokkoly/ros2_foxy/install/rcl_logging_log4cxx:/home/brokkoly/ros2_foxy/install/rcutils:/home/brokkoly/ros2_foxy/install/rcl_yaml_param_parser:/home/brokkoly/ros2_foxy/install/qt_gui_py_common:/home/brokkoly/ros2_foxy/install/qt_dotgraph:/home/brokkoly/ros2_foxy/install/python_qt_binding:/home/brokkoly/ros2_foxy/install/launch_testing_ament_cmake:/home/brokkoly/ros2_foxy/install/python_cmake_module:/home/brokkoly/ros2_foxy/install/performance_test_fixture:/home/brokkoly/ros2_foxy/install/osrf_testing_tools_cpp:/home/brokkoly/ros2_foxy/install/orocos_kdl:/home/brokkoly/ros2_foxy/install/mimick_vendor:/home/brokkoly/ros2_foxy/install/message_filters:/home/brokkoly/ros2_foxy/install/libyaml_vendor:/home/brokkoly/ros2_foxy/install/libcurl_vendor:/home/brokkoly/ros2_foxy/install/ament_cmake_ros:/home/brokkoly/ros2_foxy/install/ament_cmake_gmock:/home/brokkoly/ros2_foxy/install/gmock_vendor:/home/brokkoly/ros2_foxy/install/ament_cmake_gtest:/home/brokkoly/ros2_foxy/install/gtest_vendor:/home/brokkoly/ros2_foxy/install/ament_cmake_google_benchmark:/home/brokkoly/ros2_foxy/install/google_benchmark_vendor:/home/brokkoly/ros2_foxy/install/fastrtps:/home/brokkoly/ros2_foxy/install/foonathan_memory_vendor:/home/brokkoly/ros2_foxy/install/fastrtps_cmake_module:/home/brokkoly/ros2_foxy/install/fastcdr:/home/brokkoly/ros2_foxy/install/eigen3_cmake_module:/home/brokkoly/ros2_foxy/install/cyclonedds:/home/brokkoly/ros2_foxy/install/console_bridge_vendor:/home/brokkoly/ros2_foxy/install/connext_cmake_module:/home/brokkoly/ros2_foxy/install/ament_cmake_xmllint:/home/brokkoly/ros2_foxy/install/ament_cmake_pyflakes:/home/brokkoly/ros2_foxy/install/ament_cmake_pycodestyle:/home/brokkoly/ros2_foxy/install/ament_cmake_pep257:/home/brokkoly/ros2_foxy/install/ament_cmake_pclint:/home/brokkoly/ros2_foxy/install/ament_lint_auto:/home/brokkoly/ros2_foxy/install/ament_cmake_auto:/home/brokkoly/ros2_foxy/install/ament_cmake:/home/brokkoly/ros2_foxy/install/ament_cmake_version:/home/brokkoly/ros2_foxy/install/ament_cmake_pytest:/home/brokkoly/ros2_foxy/install/ament_cmake_nose:/home/brokkoly/ros2_foxy/install/ament_cmake_mypy:/home/brokkoly/ros2_foxy/install/ament_cmake_lint_cmake:/home/brokkoly/ros2_foxy/install/ament_cmake_flake8:/home/brokkoly/ros2_foxy/install/ament_cmake_cpplint:/home/brokkoly/ros2_foxy/install/ament_cmake_cppcheck:/home/brokkoly/ros2_foxy/install/ament_cmake_copyright:/home/brokkoly/ros2_foxy/install/ament_cmake_clang_tidy:/home/brokkoly/ros2_foxy/install/ament_cmake_clang_format:/home/brokkoly/ros2_foxy/install/ament_cmake_test:/home/brokkoly/ros2_foxy/install/ament_cmake_target_dependencies:/home/brokkoly/ros2_foxy/install/ament_cmake_python:/home/brokkoly/ros2_foxy/install/ament_cmake_export_dependencies:/home/brokkoly/ros2_foxy/install/ament_cmake_libraries:/home/brokkoly/ros2_foxy/install/ament_cmake_include_directories:/home/brokkoly/ros2_foxy/install/ament_cmake_export_targets:/home/brokkoly/ros2_foxy/install/ament_cmake_export_link_flags:/home/brokkoly/ros2_foxy/install/ament_cmake_export_interfaces:/home/brokkoly/ros2_foxy/install/ament_cmake_export_libraries:/home/brokkoly/ros2_foxy/install/ament_cmake_export_include_directories:/home/brokkoly/ros2_foxy/install/ament_cmake_export_definitions:/home/brokkoly/ros2_foxy/install/ament_cmake_core:/home/brokkoly/ros2_foxy/install/ament_index_cpp:/home/brokkoly/ros2_foxy/install/ros2bag:/home/brokkoly/ros2_foxy/install/tracetools_launch:/home/brokkoly/ros2_foxy/install/topic_monitor:/home/brokkoly/ros2_foxy/install/examples_tf2_py:/home/brokkoly/ros2_foxy/install/sros2:/home/brokkoly/ros2_foxy/install/rqt_topic:/home/brokkoly/ros2_foxy/install/rqt_top:/home/brokkoly/ros2_foxy/install/rqt_srv:/home/brokkoly/ros2_foxy/install/rqt_shell:/home/brokkoly/ros2_foxy/install/rqt_service_caller:/home/brokkoly/ros2_foxy/install/rqt_reconfigure:/home/brokkoly/ros2_foxy/install/rqt_py_console:/home/brokkoly/ros2_foxy/install/rqt_publisher:/home/brokkoly/ros2_foxy/install/rqt_plot:/home/brokkoly/ros2_foxy/install/rqt_action:/home/brokkoly/ros2_foxy/install/rqt_msg:/home/brokkoly/ros2_foxy/install/rqt_console:/home/brokkoly/ros2_foxy/install/rqt:/home/brokkoly/ros2_foxy/install/rqt_graph:/home/brokkoly/ros2_foxy/install/rqt_gui_py:/home/brokkoly/ros2_foxy/install/rqt_gui:/home/brokkoly/ros2_foxy/install/ros2trace:/home/brokkoly/ros2_foxy/install/ros2topic:/home/brokkoly/ros2_foxy/install/ros2test:/home/brokkoly/ros2_foxy/install/ros2component:/home/brokkoly/ros2_foxy/install/ros2param:/home/brokkoly/ros2_foxy/install/ros2lifecycle:/home/brokkoly/ros2_foxy/install/ros2service:/home/brokkoly/ros2_foxy/install/ros2run:/home/brokkoly/ros2_foxy/install/ros2launch:/home/brokkoly/ros2_foxy/install/ros2pkg:/home/brokkoly/ros2_foxy/install/ros2node:/home/brokkoly/ros2_foxy/install/ros2multicast:/home/brokkoly/ros2_foxy/install/ros2interface:/home/brokkoly/ros2_foxy/install/ros2doctor:/home/brokkoly/ros2_foxy/install/ros2action:/home/brokkoly/ros2_foxy/install/ros2cli:/home/brokkoly/ros2_foxy/install/quality_of_service_demo_py:/home/brokkoly/ros2_foxy/install/launch_testing_ros:/home/brokkoly/ros2_foxy/install/launch_ros:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_service:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/brokkoly/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/brokkoly/ros2_foxy/install/examples_rclpy_executors:/home/brokkoly/ros2_foxy/install/demo_nodes_py:/home/brokkoly/ros2_foxy/install/action_tutorials_py:/home/brokkoly/ros2_foxy/install/ament_uncrustify:/home/brokkoly/ros2_foxy/install/tracetools_trace:/home/brokkoly/ros2_foxy/install/tracetools_read:/home/brokkoly/ros2_foxy/install/test_launch_ros:/home/brokkoly/ros2_foxy/install/sensor_msgs_py:/home/brokkoly/ros2_foxy/install/rpyutils:/home/brokkoly/ros2_foxy/install/rosidl_runtime_py:/home/brokkoly/ros2_foxy/install/launch_yaml:/home/brokkoly/ros2_foxy/install/launch_xml:/home/brokkoly/ros2_foxy/install/launch_testing:/home/brokkoly/ros2_foxy/install/launch:/home/brokkoly/ros2_foxy/install/osrf_pycommon:/home/brokkoly/ros2_foxy/install/domain_coordinator:/home/brokkoly/ros2_foxy/install/ament_xmllint:/home/brokkoly/ros2_foxy/install/ament_pyflakes:/home/brokkoly/ros2_foxy/install/ament_pycodestyle:/home/brokkoly/ros2_foxy/install/ament_pep257:/home/brokkoly/ros2_foxy/install/ament_pclint:/home/brokkoly/ros2_foxy/install/ament_package:/home/brokkoly/ros2_foxy/install/ament_mypy:/home/brokkoly/ros2_foxy/install/ament_lint_cmake:/home/brokkoly/ros2_foxy/install/ament_flake8:/home/brokkoly/ros2_foxy/install/ament_copyright:/home/brokkoly/ros2_foxy/install/ament_lint:/home/brokkoly/ros2_foxy/install/ament_index_python:/home/brokkoly/ros2_foxy/install/ament_cpplint:/home/brokkoly/ros2_foxy/install/ament_cppcheck:/home/brokkoly/ros2_foxy/install/ament_clang_tidy:/home/brokkoly/ros2_foxy/install/ament_clang_format')]), 'shell': False}
+[0.303048] (-) TimerEvent: {}
+[0.404006] (-) TimerEvent: {}
+[0.504942] (-) TimerEvent: {}
+[0.605756] (-) TimerEvent: {}
+[0.643344] (pcl_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.705930] (-) TimerEvent: {}
+[0.806643] (-) TimerEvent: {}
+[0.857183] (pcl_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.902151] (pcl_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.906778] (-) TimerEvent: {}
+[1.007431] (-) TimerEvent: {}
+[1.108149] (-) TimerEvent: {}
+[1.208871] (-) TimerEvent: {}
+[1.229937] (pcl_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.261914] (pcl_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.262648] (pcl_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.263621] (pcl_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.272722] (pcl_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.309040] (-) TimerEvent: {}
+[1.409759] (-) TimerEvent: {}
+[1.510482] (-) TimerEvent: {}
+[1.611224] (-) TimerEvent: {}
+[1.622869] (pcl_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.652757] (pcl_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.653558] (pcl_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.655170] (pcl_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.711410] (-) TimerEvent: {}
+[1.812096] (-) TimerEvent: {}
+[1.912786] (-) TimerEvent: {}
+[1.948965] (pcl_ros) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.012961] (-) TimerEvent: {}
+[2.113718] (-) TimerEvent: {}
+[2.116747] (pcl_ros) StdoutLine: {'line': b'--   Found eigen3, version 3.3.4\n'}
+[2.213925] (-) TimerEvent: {}
+[2.314636] (-) TimerEvent: {}
+[2.414010] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[2.414841] (-) TimerEvent: {}
+[2.415254] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (eigen) does\n'}
+[2.415729] (pcl_ros) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[2.416095] (pcl_ros) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[2.416447] (pcl_ros) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[2.416800] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.417154] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:153 (find_package_handle_standard_args)\n'}
+[2.417632] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:638 (find_eigen)\n'}
+[2.418030] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[2.418406] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[2.418765] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.419132] (pcl_ros) StdoutLine: {'line': b'-- Found eigen: /usr/include/eigen3  \n'}
+[2.419516] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[2.515079] (-) TimerEvent: {}
+[2.615870] (-) TimerEvent: {}
+[2.716668] (-) TimerEvent: {}
+[2.817546] (-) TimerEvent: {}
+[2.918273] (-) TimerEvent: {}
+[3.018959] (-) TimerEvent: {}
+[3.119652] (-) TimerEvent: {}
+[3.220323] (-) TimerEvent: {}
+[3.321016] (-) TimerEvent: {}
+[3.421746] (-) TimerEvent: {}
+[3.522470] (-) TimerEvent: {}
+[3.623193] (-) TimerEvent: {}
+[3.723879] (-) TimerEvent: {}
+[3.824575] (-) TimerEvent: {}
+[3.925269] (-) TimerEvent: {}
+[4.026061] (-) TimerEvent: {}
+[4.126763] (-) TimerEvent: {}
+[4.227450] (-) TimerEvent: {}
+[4.328164] (-) TimerEvent: {}
+[4.428857] (-) TimerEvent: {}
+[4.529602] (-) TimerEvent: {}
+[4.630291] (-) TimerEvent: {}
+[4.730990] (-) TimerEvent: {}
+[4.831708] (-) TimerEvent: {}
+[4.932406] (-) TimerEvent: {}
+[5.033105] (-) TimerEvent: {}
+[5.133825] (-) TimerEvent: {}
+[5.234518] (-) TimerEvent: {}
+[5.335217] (-) TimerEvent: {}
+[5.435919] (-) TimerEvent: {}
+[5.536608] (-) TimerEvent: {}
+[5.637313] (-) TimerEvent: {}
+[5.738051] (-) TimerEvent: {}
+[5.838757] (-) TimerEvent: {}
+[5.939470] (-) TimerEvent: {}
+[6.040208] (-) TimerEvent: {}
+[6.141035] (-) TimerEvent: {}
+[6.241870] (-) TimerEvent: {}
+[6.342585] (-) TimerEvent: {}
+[6.443311] (-) TimerEvent: {}
+[6.544014] (-) TimerEvent: {}
+[6.644714] (-) TimerEvent: {}
+[6.745514] (-) TimerEvent: {}
+[6.846265] (-) TimerEvent: {}
+[6.947011] (-) TimerEvent: {}
+[7.047945] (-) TimerEvent: {}
+[7.148683] (-) TimerEvent: {}
+[7.249461] (-) TimerEvent: {}
+[7.350144] (-) TimerEvent: {}
+[7.450840] (-) TimerEvent: {}
+[7.506555] (pcl_ros) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[7.551006] (-) TimerEvent: {}
+[7.651736] (-) TimerEvent: {}
+[7.725752] (pcl_ros) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[7.751921] (-) TimerEvent: {}
+[7.852630] (-) TimerEvent: {}
+[7.953415] (-) TimerEvent: {}
+[8.054180] (-) TimerEvent: {}
+[8.154894] (-) TimerEvent: {}
+[8.243338] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[8.244111] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Flann) does\n'}
+[8.244515] (pcl_ros) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[8.244875] (pcl_ros) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[8.245246] (pcl_ros) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[8.246002] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.246369] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)\n'}
+[8.246752] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)\n'}
+[8.247098] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[8.247748] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[8.248115] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.248520] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[8.248867] (pcl_ros) StdoutLine: {'line': b'-- Found Flann: /usr/lib/aarch64-linux-gnu/libflann_cpp_s.a  \n'}
+[8.249224] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[8.249615] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Flann) does\n'}
+[8.249951] (pcl_ros) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[8.250299] (pcl_ros) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[8.250660] (pcl_ros) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[8.250997] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.251379] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)\n'}
+[8.251728] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)\n'}
+[8.252054] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[8.252384] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[8.252730] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.253051] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[8.253445] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[8.253802] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Flann) does\n'}
+[8.254128] (pcl_ros) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[8.254471] (pcl_ros) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[8.254810] (pcl_ros) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[8.255117] (-) TimerEvent: {}
+[8.255473] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.255876] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)\n'}
+[8.256241] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)\n'}
+[8.256581] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[8.256921] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[8.257249] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.257643] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[8.355327] (-) TimerEvent: {}
+[8.377539] (pcl_ros) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[8.378153] (pcl_ros) StdoutLine: {'line': b'   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[8.378527] (pcl_ros) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[8.379105] (pcl_ros) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[8.379502] (pcl_ros) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[8.379853] (pcl_ros) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[8.380213] (pcl_ros) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"\n'}
+[8.380554] (pcl_ros) StdoutLine: {'line': b'but not all the files it references.\n'}
+[8.380896] (pcl_ros) StdoutLine: {'line': b'\n'}
+[8.381236] (pcl_ros) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[8.381819] (pcl_ros) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[8.382326] (pcl_ros) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[8.382793] (pcl_ros) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[8.383353] (pcl_ros) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[8.383717] (pcl_ros) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[8.384062] (pcl_ros) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"\n'}
+[8.384403] (pcl_ros) StdoutLine: {'line': b'but not all the files it references.\n'}
+[8.384775] (pcl_ros) StdoutLine: {'line': b'\n'}
+[8.455508] (-) TimerEvent: {}
+[8.556216] (-) TimerEvent: {}
+[8.656935] (-) TimerEvent: {}
+[8.757807] (-) TimerEvent: {}
+[8.858488] (-) TimerEvent: {}
+[8.883223] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[8.883875] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Flann) does\n'}
+[8.884255] (pcl_ros) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[8.884645] (pcl_ros) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[8.885154] (pcl_ros) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[8.885912] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.886593] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)\n'}
+[8.886975] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)\n'}
+[8.887378] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[8.887813] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[8.888377] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.888874] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[8.889433] (pcl_ros) StdoutLine: {'line': b"-- Checking for module 'libopenni'\n"}
+[8.959429] (-) TimerEvent: {}
+[9.061539] (-) TimerEvent: {}
+[9.103569] (pcl_ros) StdoutLine: {'line': b'--   Found libopenni, version 1.5.4.0\n'}
+[9.161725] (-) TimerEvent: {}
+[9.262488] (-) TimerEvent: {}
+[9.363205] (-) TimerEvent: {}
+[9.464009] (-) TimerEvent: {}
+[9.564741] (-) TimerEvent: {}
+[9.616071] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[9.616847] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (openni)\n'}
+[9.617250] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[9.617790] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[9.618329] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[9.618784] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.619156] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:235 (find_package_handle_standard_args)\n'}
+[9.619498] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:644 (find_openni)\n'}
+[9.619965] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[9.620361] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[9.620703] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.621038] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[9.621397] (pcl_ros) StdoutLine: {'line': b'-- Found openni: /usr/lib/libOpenNI.so  \n'}
+[9.664925] (-) TimerEvent: {}
+[9.766001] (-) TimerEvent: {}
+[9.866763] (-) TimerEvent: {}
+[9.967550] (-) TimerEvent: {}
+[10.068264] (-) TimerEvent: {}
+[10.169011] (-) TimerEvent: {}
+[10.269742] (-) TimerEvent: {}
+[10.316525] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.317189] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (OpenNI2)\n'}
+[10.317692] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.318102] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.318455] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.318800] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.319136] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:280 (find_package_handle_standard_args)\n'}
+[10.319486] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:646 (find_openni2)\n'}
+[10.319840] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[10.320181] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.320508] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.320875] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.369916] (-) TimerEvent: {}
+[10.431843] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.432546] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (ensenso)\n'}
+[10.432926] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.433271] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.433727] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.434084] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.434419] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:312 (find_package_handle_standard_args)\n'}
+[10.434823] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:648 (find_ensenso)\n'}
+[10.435169] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[10.435506] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.435844] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.436187] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.470078] (-) TimerEvent: {}
+[10.495880] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.496674] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DAVIDSDK)\n'}
+[10.497201] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.497788] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.498217] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.498568] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.498943] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:346 (find_package_handle_standard_args)\n'}
+[10.499289] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:650 (find_davidSDK)\n'}
+[10.499629] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[10.499971] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.500309] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.500661] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.512289] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.512998] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DSSDK) does\n'}
+[10.513449] (pcl_ros) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[10.513865] (pcl_ros) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[10.514217] (pcl_ros) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[10.514560] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.514887] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:388 (find_package_handle_standard_args)\n'}
+[10.515212] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:652 (find_dssdk)\n'}
+[10.515549] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[10.515871] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.516189] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.516508] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.570249] (-) TimerEvent: {}
+[10.613020] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.613879] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (libusb-1.0)\n'}
+[10.614277] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.614631] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.614977] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.615355] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.615726] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:515 (find_package_handle_standard_args)\n'}
+[10.616102] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:658 (find_libusb)\n'}
+[10.616445] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[10.616781] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.617111] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.617497] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.617883] (pcl_ros) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[10.670450] (-) TimerEvent: {}
+[10.771203] (-) TimerEvent: {}
+[10.850170] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.850884] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (qhull) does\n'}
+[10.851322] (pcl_ros) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[10.851728] (pcl_ros) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[10.852150] (pcl_ros) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[10.852511] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.852868] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:185 (find_package_handle_standard_args)\n'}
+[10.853230] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:642 (find_qhull)\n'}
+[10.853713] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[10.854071] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.854479] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.855279] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.855673] (pcl_ros) StdoutLine: {'line': b'-- Found qhull: /usr/lib/aarch64-linux-gnu/libqhull.so  \n'}
+[10.856076] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.856423] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)\n'}
+[10.856745] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.857063] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.857428] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.857797] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.858141] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.858503] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.858855] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.859205] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.859556] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[10.860983] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.861618] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_CORE)\n'}
+[10.861992] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.862346] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.862693] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.863042] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.863376] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.863737] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.864348] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.864810] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.865174] (pcl_ros) StdoutLine: {'line': b'-- Could NOT find PCL_CORE (missing: PCL_CORE_LIBRARY PCL_CORE_INCLUDE_DIR) \n'}
+[10.865621] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.865995] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)\n'}
+[10.866340] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.866682] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.867013] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.867381] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.868152] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.868576] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.868952] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.869288] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.869686] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[10.870034] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.870363] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)\n'}
+[10.870684] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.871002] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.871319] (-) TimerEvent: {}
+[10.871683] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.872110] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.872484] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.872845] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.873199] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.873645] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.874009] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[10.874702] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.875191] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)\n'}
+[10.875574] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.876294] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.876658] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.877021] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.877456] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.877841] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.878192] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.878543] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.878875] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[10.879228] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.879615] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_2D)\n'}
+[10.880365] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.880768] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.881121] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.881583] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.881997] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[10.882429] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.882802] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.883195] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.883539] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.8  \n'}
+[10.883917] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.884657] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[10.885186] (pcl_ros) StderrLine: {'line': b'  (PCL_FEATURES) does not match the name of the calling package (PCL).  This\n'}
+[10.885636] (pcl_ros) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[10.886026] (pcl_ros) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.886392] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.886751] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.887112] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.887506] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.887882] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.888227] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[10.888608] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.889288] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[10.889869] (pcl_ros) StderrLine: {'line': b'  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package\n'}
+[10.890246] (pcl_ros) StderrLine: {'line': b'  (PCL).  This can lead to problems in calling code that expects\n'}
+[10.890608] (pcl_ros) StderrLine: {'line': b'  `find_package` result variables (e.g., `_FOUND`) to follow a certain\n'}
+[10.891000] (pcl_ros) StderrLine: {'line': b'  pattern.\n'}
+[10.891365] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.891719] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.892078] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.892419] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.892757] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.893117] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[10.893913] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.894332] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[10.894674] (pcl_ros) StderrLine: {'line': b'  (PCL_FILTERS) does not match the name of the calling package (PCL).  This\n'}
+[10.895034] (pcl_ros) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[10.895741] (pcl_ros) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.896115] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.896452] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.896808] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.897164] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.897721] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.898239] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[10.898746] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.899207] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_IO)\n'}
+[10.899576] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.899976] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.900799] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.901253] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.901714] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.902095] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.902449] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.902808] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.903157] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[10.903533] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.903951] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[10.904396] (pcl_ros) StderrLine: {'line': b'  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This\n'}
+[10.905511] (pcl_ros) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[10.906271] (pcl_ros) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.906824] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.907370] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[10.907809] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.908177] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.908547] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.908913] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.8  \n'}
+[10.909296] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.909802] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_ML)\n'}
+[10.910162] (pcl_ros) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[10.910504] (pcl_ros) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.910895] (pcl_ros) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.911702] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.912100] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.912455] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.912784] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.913113] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.913513] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[10.913882] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.914223] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[10.914552] (pcl_ros) StderrLine: {'line': b'  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).\n'}
+[10.914877] (pcl_ros) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[10.915239] (pcl_ros) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.915565] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.915888] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.916211] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.916532] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.916853] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.917173] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[10.917603] (pcl_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.918101] (pcl_ros) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[10.918552] (pcl_ros) StderrLine: {'line': b'  (PCL_SURFACE) does not match the name of the calling package (PCL).  This\n'}
+[10.918906] (pcl_ros) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[10.919263] (pcl_ros) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.919598] (pcl_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.919952] (pcl_ros) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[10.920285] (pcl_ros) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[10.920607] (pcl_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.920935] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[10.921259] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[10.971506] (-) TimerEvent: {}
+[11.013628] (pcl_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/home/brokkoly/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)\n'}
+[11.071678] (-) TimerEvent: {}
+[11.172359] (-) TimerEvent: {}
+[11.273061] (-) TimerEvent: {}
+[11.373784] (-) TimerEvent: {}
+[11.474495] (-) TimerEvent: {}
+[11.575185] (-) TimerEvent: {}
+[11.675838] (-) TimerEvent: {}
+[11.776481] (-) TimerEvent: {}
+[11.877117] (-) TimerEvent: {}
+[11.907401] (pcl_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[11.908150] (pcl_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.977273] (-) TimerEvent: {}
+[12.077990] (-) TimerEvent: {}
+[12.178646] (-) TimerEvent: {}
+[12.279286] (-) TimerEvent: {}
+[12.379928] (-) TimerEvent: {}
+[12.480593] (-) TimerEvent: {}
+[12.581251] (-) TimerEvent: {}
+[12.681962] (-) TimerEvent: {}
+[12.782609] (-) TimerEvent: {}
+[12.883245] (-) TimerEvent: {}
+[12.983888] (-) TimerEvent: {}
+[13.084534] (-) TimerEvent: {}
+[13.185173] (-) TimerEvent: {}
+[13.285878] (-) TimerEvent: {}
+[13.386524] (-) TimerEvent: {}
+[13.487167] (-) TimerEvent: {}
+[13.587912] (-) TimerEvent: {}
+[13.688555] (-) TimerEvent: {}
+[13.789193] (-) TimerEvent: {}
+[13.890030] (-) TimerEvent: {}
+[13.990890] (-) TimerEvent: {}
+[14.091773] (-) TimerEvent: {}
+[14.192503] (-) TimerEvent: {}
+[14.293265] (-) TimerEvent: {}
+[14.394119] (-) TimerEvent: {}
+[14.494874] (-) TimerEvent: {}
+[14.595597] (-) TimerEvent: {}
+[14.696380] (-) TimerEvent: {}
+[14.797076] (-) TimerEvent: {}
+[14.897842] (-) TimerEvent: {}
+[14.998539] (-) TimerEvent: {}
+[15.099267] (-) TimerEvent: {}
+[15.199972] (-) TimerEvent: {}
+[15.215314] (pcl_ros) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (find_package):\n'}
+[15.216280] (pcl_ros) StderrLine: {'line': b'  By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this\n'}
+[15.216713] (pcl_ros) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[15.217088] (pcl_ros) StderrLine: {'line': b'  "pcl_conversions", but CMake did not find one.\n'}
+[15.217531] (pcl_ros) StderrLine: {'line': b'\n'}
+[15.218049] (pcl_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_conversions"\n'}
+[15.218556] (pcl_ros) StderrLine: {'line': b'  with any of the following names:\n'}
+[15.219037] (pcl_ros) StderrLine: {'line': b'\n'}
+[15.219474] (pcl_ros) StderrLine: {'line': b'    pcl_conversionsConfig.cmake\n'}
+[15.219883] (pcl_ros) StderrLine: {'line': b'    pcl_conversions-config.cmake\n'}
+[15.220318] (pcl_ros) StderrLine: {'line': b'\n'}
+[15.220756] (pcl_ros) StderrLine: {'line': b'  Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or\n'}
+[15.221156] (pcl_ros) StderrLine: {'line': b'  set "pcl_conversions_DIR" to a directory containing one of the above files.\n'}
+[15.221633] (pcl_ros) StderrLine: {'line': b'  If "pcl_conversions" provides a separate development package or SDK, be\n'}
+[15.222141] (pcl_ros) StderrLine: {'line': b'  sure it has been installed.\n'}
+[15.222664] (pcl_ros) StderrLine: {'line': b'\n'}
+[15.223180] (pcl_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[15.223622] (pcl_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.275260] (pcl_ros) CommandEnded: {'returncode': 1}
+[15.300236] (-) TimerEvent: {}
+[15.401312] (-) TimerEvent: {}
+[15.493675] (pcl_ros) JobEnded: {'identifier': 'pcl_ros', 'rc': 1}
+[15.501471] (-) TimerEvent: {}
+[15.505600] (-) EventReactorShutdown: {}

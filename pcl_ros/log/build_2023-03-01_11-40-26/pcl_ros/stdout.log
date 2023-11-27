@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.4
+-- Found eigen: /usr/include/eigen3  
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found Flann: /usr/lib/aarch64-linux-gnu/libflann_cpp_s.a  
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libopenni'
+--   Found libopenni, version 1.5.4.0
+-- Found openni: /usr/lib/libOpenNI.so  
+-- Found libusb-1.0: /usr/include  
+-- Found qhull: /usr/lib/aarch64-linux-gnu/libqhull.so  
+-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+-- Could NOT find PCL_CORE (missing: PCL_CORE_LIBRARY PCL_CORE_INCLUDE_DIR) 
+-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+-- Found PCL_2D: /usr/include/pcl-1.8  
+-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+-- Found ament_cmake_ros: 0.9.2 (/home/brokkoly/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring incomplete, errors occurred!

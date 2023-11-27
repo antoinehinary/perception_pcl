@@ -39,13 +39,18 @@ include_directories(
   ${PCL_INCLUDE_DIRS}
 )
 
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
+
 ## Declare the pcl_ros_tf library
 add_library(pcl_ros_tf src/transforms.cpp)
 ament_target_dependencies(pcl_ros_tf
   ${dependencies}
 )
-target_link_libraries(pcl_ros_tf ${PCL_LIBRARIES})
 
+
+target_link_libraries(pcl_ros_tf ${PCL_LIBRARIES})
 ### Nodelets
 #
 ### Declare the pcl_ros_io library
